@@ -1,38 +1,226 @@
-.App {
-  text-align: center;
+.Sidebar{
+  width: 100%;
+  height:100vh;
+  background-color:black;
+  float:left;
+  color:white;
+  border-radius: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Sidebar h1{
+    padding-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.myul{
+  list-style-type: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.myul li{
+  padding:10px;
+}
+.Sidebar ul li{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.abcd{
+  border-radius: 10px;
+  height: 100px;
+  width: 300px;
+  margin:20px;
+    display: flex;
+    background-color: rgb(32, 165, 218);
+}
+.abcd img{
+  padding-left: 100px;
+  height:100px;
+  width:200px;
+ margin-bottom:-100px;
+}
+.demo{
+  height:100px;
+  padding-left: 70px;
+  width:200px;
+  border-radius: 20px;
+}
+.demo1{
+  padding-left: 100px;
+  height: 100px;
+  width: 200px;
+  margin-bottom:-90px;
+}
+.abcd h1{
+  font-size:35px;
+}
+.sample1{
+  border-radius: 10px;
+  height: 100px;
+  width: 300px;
+    margin:20px;
+    margin-top: 10px;
+    display: flex;
+    background-color:pink;
+}
+.sample{
+  border-radius: 10px;
+  height: 100px;
+  width: 300px;
+    margin:20px;
+    margin-top: 10px;
+    display: flex;
+    background-color: red;
+}
+/*Dashboard End*/
+   
+  /*Charts Start*/
+    .parent{
+      margin-top:110px;
+      margin-left: -800px;
+    }
+    .child {
+    margin-left:0px;
+    margin-top: 40px;
+    border:2px solid;
+    }
+    body{
+      overflow-x: hidden;
+      overflow-y: hidden;
+    
+    }
+    .child1{
+    margin:-55px;
+    }
+    .child1 h5{
+      padding-left:60px;
+      margin-top: 20px;
+    }
+    .parent1{
+      padding-left:100px;
+      margin-bottom: 70px;
+    }
+    .parent1 h5{
+      margin-top: 30px;
+    }
+    .child2 h5{
+      margin-top: 20px;
+    }
+    /*Charts End*/
 
-.App-link {
-  color: #61dafb;
-}
+    /*Buses Start*/
+      .mycol h2{
+        padding-left:50px;
+        font-size: 25px;
+        }
+        .mycol{
+          background-color:lavender;
+          border-radius: 20px;
+        }
+        .mycol1{
+          background-color:pink;
+          border-radius: 20px;
+        }
+        .mycol1 h3{
+          padding-top: 20px;
+        }
+        .mycol2 h3{
+          padding-top: 20px;
+        }
+        .mycol2{
+          border-radius: 20px;
+          background-color:mintcream;
+        }
+      /*Buses End*/  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+      /*Tables Start*/
+            .img1{
+              height:60px;
+              width:100px;
+            }
+            .mytab{
+              margin-top: 20px;
+              width:60%;
+            }
+            .img2{
+              height:60px;
+              width:100px;
+            }
+            .img3{
+              height:60px;
+              width:100px;
+            }
+            .img4{
+              height:60px;
+              width:100px;
+            }
+            .title{
+              margin-left:180px;
+            }
+            .mybtn{
+              margin-top: 20px;
+            }
+            .img5{
+              margin-top: 20px;
+              height:300px;
+              width:300px;
+            }
+            /*Tables End*/
+
+            /*Reports Start*/
+              .mytab1{
+               margin-top: 10px;
+               width:60%;
+               }
+              .col1{
+              padding-left: 100px;
+              }
+                /*mytrips start*/
+              .efg{
+                
+              }
+              .main{
+                display:flex ;   
+              margin: 4px;
+              justify-content: space-between;
+                        }
+                        .main div{
+                          display: flex;
+                          justify-content: center;
+                          border: 2px solid;
+                          width: 300px;
+                          height:100px;
+                     
+                        }
+                        .mytab1{
+                          margin-top: 10px;
+                          width:60%;
+                          }
+                         .col1{
+                         padding-left: 100px;
+                         }
+                         .Col1{
+                           background-color: aliceblue;
+                           border-radius: 20px;
+                         }
+           .main{
+             display: flex;
+             margin: 5px;
+             justify-content: space-between;
+           }
+           .main div{
+             display: flex;
+             justify-content: center;
+             border: 2px solid;
+             width: 300px;
+             height:100px;
+           }
+           .pie{
+             margin-top: 2%;
+           }
+           .light-mode {
+            background-color: #ffffff;
+            color: #000000;
+          }
+          
+          .dark-mode {
+            background-color: #000000;
+            color: #a39494;
+          }
+          .icon-button .MuiSvgIcon-root {
+            width: 1.5rem; /* Adjust as needed */
+            height: 1.5rem; /* Adjust as needed */
+          }
